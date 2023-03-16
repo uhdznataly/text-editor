@@ -21,7 +21,7 @@ module.exports = () => {
       
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Text Editor'
+        title: 'text-editor'
       }),
       
       new InjectManifest({
@@ -32,8 +32,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Text Editor',
-        short_name: 'Text',
+        name: 'text-editor',
+        short_name: 'J.A.T,E',
         description: 'Add and save text!',
         background_color: 'black',
         theme_color: 'black',
